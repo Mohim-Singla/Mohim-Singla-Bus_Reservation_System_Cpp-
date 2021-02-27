@@ -205,33 +205,35 @@ int main()
                     {
                         for (int i=0;i<10;i++)
                         {
-                            if (b1.reserved[i]!="0")
-                            {
-                                cout<<i+1<<". "<<b1.reserved[i]<<endl;
-                            }
                             if(b1.reserved[0]=="0")
                             {
                                 cout<<"No Reservations done."<<endl;
                                 break;
                             }
-                            break;
+                            else if(b1.reserved[i]!="0")
+                            {
+                                cout<<i+1<<". "<<b1.reserved[i]<<endl;
+                            }
+
                         }
+                        break;
                     }
                 case 2:
                     {
                         for (int i=0;i<10;i++)
                         {
-                            if (b2.reserved[i]!="0")
-                            {
-                                cout<<i+1<<". "<<b2.reserved[i]<<endl;
-                            }
                             if(b2.reserved[0]=="0")
                             {
                                 cout<<"No Reservations done."<<endl;
                                 break;
                             }
-                            break;
+                            else if(b2.reserved[i]!="0")
+                            {
+                                cout<<i+1<<". "<<b2.reserved[i]<<endl;
+                            }
+
                         }
+                        break;
                     }
                 case 0:
                     {
